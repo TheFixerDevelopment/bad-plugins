@@ -1,11 +1,10 @@
-main: aliuly\autoheal\Main
-api: 1.10.0
-load: POSTWORLD
-
 name: AutoHeal
 description: Basic Auto-Healing Plugin
-version: 1.0.2
+version: 1.0.3
 author: aliuly
+main: aliuly\autoheal\Main
+api: [3.0.0-ALPHA11, 3.0.0-ALPHA12]
+load: POSTWORLD
 
 permissions:
     autoheal:
