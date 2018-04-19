@@ -6,10 +6,10 @@ use pocketmine\utils\Config;
 use pocketmine\utils\TextFormat;
 use pocketmine\permission\Permission;
 
-//use pocketmine\Player;
-//use pocketmine\Server;
-//use pocketmine\item\Item;
-//use pocketmine\network\protocol\SetHealthPacket;
+use pocketmine\Player;
+use pocketmine\Server;
+use pocketmine\item\Item;
+use pocketmine\network\mcpe\protocol\SetHealthPacket;
 
 class Main extends PluginBase{
 	public function onEnable(){
